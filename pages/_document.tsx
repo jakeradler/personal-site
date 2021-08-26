@@ -7,9 +7,9 @@ export default class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <link rel="preload" href="/fonts/karla.ttf" as="font" type="font/ttf" crossOrigin="anonymous" />
-          <link rel="preload" as="image" href="/img/zach.png" />
+          <link rel="preload" as="image" href="/img/Jake.png" />
           <meta name="theme-color" content="#000" />
-          <meta name="description" content="Zach Weinberg | Full Stack Web Engineer"></meta>
+          <meta name="description" content="Jake Adler | Generalist and Founder"></meta>
         </Head>
         <body>
           <Main />

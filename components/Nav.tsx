@@ -11,20 +11,17 @@ const Nav: React.FunctionComponent = () => {
       </Link>
       <a
         className="pr-3 md:pr-6 md:text-lg hover:text-gray-300"
-        href="https://github.com/zachweinberg"
+        href="https://github.com/jrjradler"
         target="_blank"
       >
         GitHub
       </a>
       <a
         className="pr-3 md:pr-6 md:text-lg hover:text-gray-300"
-        href="https://www.linkedin.com/in/zachjamesweinberg"
+        href="https://www.linkedin.com/in/jakeradler"
         target="_blank"
       >
         LinkedIn
-      </a>
-      <a className="pr-3 md:pr-6 md:text-lg hover:text-gray-300" href="/static/resume.pdf" target="_blank">
-        Resume
       </a>
     </nav>
   )

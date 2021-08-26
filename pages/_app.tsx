@@ -4,14 +4,14 @@ import Head from 'next/head'
 import { SkeletonTheme } from 'react-loading-skeleton'
 import '~/styles/globals.css'
 
-const title = 'Zach Weinberg - Full Stack Web Engineer'
+const title = 'Jake Adler - Generalist and Founder'
 const SEO = {
   title,
-  canonical: 'https://zachweinberg.com',
+  canonical: 'https://jakeradler.com',
   openGraph: {
     type: 'website',
     locale: 'en_IE',
-    url: 'https://zachweinberg.com',
+    url: 'https://jakeradler.com',
     title,
   },
 }
@@ -21,7 +21,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
-        <title>Zach Weinberg - Full Stack Web Engineer</title>
+        <title>Jake Adler - Generalist and Founder</title>
       </Head>
       <DefaultSeo {...SEO} />
       <SkeletonTheme color="#191919" highlightColor="#404040">

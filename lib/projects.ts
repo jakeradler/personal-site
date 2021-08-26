@@ -7,48 +7,36 @@ export interface Project {
 export const getProjects = (): Project[] => {
   return [
     {
-      title: 'Coinbase Pro Clone',
+      title: 'Ordy & Ordcoin',
       description:
-        "Recently I thought I would have some fun messing around with React Native. So I'm attempting to rebuild only the UI of the Coinbase Pro app.",
-      url: 'https://github.com/zachweinberg/coinbasepro-react-native',
+        "Ordy (or meet Ordy) is the first AI-based personalized crypto wallet that provides investors with critical investment information depending on their desired investment strategy.",
+      url: 'https://meetordy.com',
     },
     {
-      title: 'Pinger',
+      title: 'oneKYC',
       description:
-        'A tool for accountants that allows them to configure their own ping alerts from QuickBooks Online or Xero that get delivered to Slack, Email or SMS!',
-      url: 'https://ifpinger.ai',
+        'oneKYC is an authentication platform that allows any investor to sign in (similar to "sign in with google") to crypto platforms with pre-verified KYC providing instantaneous access.',
+      url: 'https://onekyc.io',
     },
 
     {
-      title: 'SongTree',
+      title: 'Brainex',
       description:
-        'A complete song database backed by the Spotify API. I built this for fun just to have some fun with Spotify data.',
-      url: 'https://songtree.app',
+        'A chrome extension that connects to BCI technology and provides live access to calm and focus data.',
+      url: 'https://github.com/jrjradler/Brainex',
     },
 
     {
-      title: 'My Bus Home',
+      title: 'CryptoSent',
       description:
-        'A website for a bus transportation business that transports college students to and from colleges along the east coast.',
-      url: 'https://www.mybushome.com',
+        'An AI algorithm that uses sentiment analysis to determine the general sentiment around specific crypto invesments.',
+      url: 'https://github.com/jrjradler/twittersentimentmk1',
     },
     {
-      title: 'Tapfood',
+      title: 'Atherma',
       description:
-        'A webapp built with React for a food delivery service based in New Jersey. Orders coming in everyday!',
-      url: 'https://www.tapfood.us',
-    },
-    {
-      title: 'Cubepros',
-      description:
-        'Cubepros is an accounting firm that helps transition your back office into a paperless, efficient powerhouse.',
-      url: 'https://cubepros.com',
-    },
-    {
-      title: 'Phish Player',
-      description:
-        'A small app to explore the music of the band Phish and search and play songs. Backed by the phish.in API.',
-      url: 'https://phish.zachweinberg.com',
-    },
+        'Self-sustaining thermoelectric modular nuclear reactors that improve current nuclear energy production efficiency by 3%.',
+      url: 'https://atherma.world',
+    }
   ]
 }
