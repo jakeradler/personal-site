@@ -8,7 +8,7 @@ const Index: NextPage = () => (
     <div>
       <div className="flex items-center">
         <img className="rounded-full w-24 md:w-36 mr-6 mb-6" src="img/Jake.png" />
-        <Heading title="Hey There, I'm Jake Adler" />
+        <Heading title="Hey There! I'm Jake Adler" />
       </div>
       <p className="text-gray-400 text-lg mb-14">
         I'm a founder and inventor of cool shit based in Toronto. I'm currently building{' '}
