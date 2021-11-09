@@ -12,7 +12,7 @@ const Index: NextPage = () => (
       </div>
       <p className="text-gray-400 text-lg mb-14">
         I'm a developer and inventor of cool shit based in Toronto. I'm currently working on{' '}
-        <a href="https://meetordy.com" target="_blank" className="font-semibold hover:text-gray-300 underline">
+        <a href="https://github.com/jrjradler" target="_blank" className="font-semibold hover:text-gray-300 underline">
           BCI and Crypto
         </a>{' '}
         related projects. I focus all my work on projects that directly address problems people face everyday. On this site
