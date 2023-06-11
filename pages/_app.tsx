@@ -4,7 +4,7 @@ import Head from 'next/head'
 import { SkeletonTheme } from 'react-loading-skeleton'
 import '~/styles/globals.css'
 
-const title = 'Jake Adler - Generalist and Founder'
+const title = 'Jake Adler'
 const SEO = {
   title,
   canonical: 'https://jakeradler.com',
@@ -21,7 +21,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
-        <title>Jake Adler - Generalist and Founder</title>
+        <title>Jake Adler</title>
       </Head>
       <DefaultSeo {...SEO} />
       <SkeletonTheme color="#191919" highlightColor="#404040">

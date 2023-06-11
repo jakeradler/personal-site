@@ -7,36 +7,40 @@ export interface Project {
 export const getProjects = (): Project[] => {
   return [
     {
-      title: 'Ordy & Ordcoin',
+      title: 'Neusleep',
       description:
-        "Ordy (or meet Ordy) is the first AI-based personalized crypto wallet that provides investors with critical investment information depending on their desired investment strategy.",
-      url: 'https://meetordy.com',
+        "Advanced wearables designed to optimize and enhance sleep through personalized brain stimulation.",
+      url: 'https://neusleep.com',
     },
     {
-      title: 'oneKYC',
+      title: 'Pilgrim',
       description:
-        'oneKYC is an authentication platform that allows any investor to sign in (similar to "sign in with google") to crypto platforms with pre-verified KYC providing instantaneous access.',
-      url: 'https://onekyc.io',
-    },
-
-    {
-      title: 'Brainex',
-      description:
-        'A chrome extension that connects to BCI technology and provides live access to calm and focus data.',
-      url: 'https://github.com/jrjradler/Brainex',
-    },
-
-    {
-      title: 'CryptoSent',
-      description:
-        'An AI algorithm that uses sentiment analysis to determine the general sentiment around specific crypto invesments.',
-      url: 'https://github.com/jrjradler/twittersentimentmk1',
+        "Experimental body-machine interfaces designed to enhance the biological capabilities of warfighters.",
+      url: 'https://pilgrimlabs.xyz',
     },
     {
       title: 'Atherma',
       description:
-        'Self-sustaining thermoelectric modular nuclear reactors that improve current nuclear energy production efficiency by 3%.',
-      url: 'https://atherma.world',
-    }
+        'Portable self-sustaining thermoelectric small modular nuclear reactor using the Seebeck Effect.',
+      url: 'https://www.dropbox.com/scl/fi/s50zd350n9i4b174vaz77/Atherma-OnePager.pdf?dl=0&rlkey=gngd8t41cocutoa7cffnlbqrl',
+    },
+    {
+      title: 'Brainex',
+      description:
+        'A chrome extension that connects to a neural interface and provides in-browser access to EEG data.',
+      url: 'https://github.com/jrjradler/Brainex',
+    },
+    // {
+    //   title: 'oneKYC',
+    //   description:
+    //     'An authorization platform that allows any investor to sign in to crypto platforms with pre-verified KYC.',
+    //   url: 'https://onekyc.io',
+    // },
+    // {
+    //   title: 'Ordy',
+    //   description:
+    //     "The first personalized crypto wallet that provides investors with critical investment information depending on their desired investment strategy.",
+    //   url: 'https://meetordy.com',
+    // },
   ]
 }

@@ -1,7 +1,7 @@
 {
   "name": "jakeradler.com",
   "version": "1.0.0",
-  "description": "My Personal Website",
+  "description": "Personal Site",
   "author": "Jake Adler",
   "scripts": {
     "dev": "next",

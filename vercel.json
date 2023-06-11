@@ -3,7 +3,7 @@
   "trailingSlash": false,
   "headers": [
     {
-      "source": "/fonts/karla.ttf",
+      "source": "/fonts/BerkeleyMono.ttf",
       "headers": [
         {
           "key": "Cache-Control",
